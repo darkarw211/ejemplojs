@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/',(req,res)=>{
     res.render('index.ejs',{
-        nombre:'Sergio'
+        nombre:'vidaña'
     })
 });
 
